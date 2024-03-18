@@ -83,7 +83,7 @@ jobs:
     - name: Install nightly rust
       uses: actions-rs/toolchain@v1
       with:
-        toolchain: nightly-i686-unknown-linux-gnu
+        toolchain: nightly-2021-12-11-i686-unknown-linux-gnu
         override: true
 
     - uses: actions/checkout@v2
