@@ -21,7 +21,7 @@ jobs:
     - name: Install nightly rust
       uses: actions-rs/toolchain@v1
       with:
-        toolchain: nightly-i686-unknown-linux-gnu
+        toolchain: nightly-2021-12-11-i686-unknown-linux-gnu
         override: true
     
     - name: Install i386 deps
@@ -52,7 +52,7 @@ jobs:
     - name: Install nightly rust
       uses: actions-rs/toolchain@v1
       with:
-        toolchain: nightly-i686-unknown-linux-gnu
+        toolchain: nightly-2021-12-11-i686-unknown-linux-gnu
         override: true
 
     - uses: actions/checkout@v2
@@ -140,7 +140,7 @@ jobs:
     - name: Install nightly rust
       uses: actions-rs/toolchain@v1
       with:
-        toolchain: nightly-i686-pc-windows-msvc
+        toolchain: nightly-2021-12-11-i686-pc-windows-msvc
         override: true
 
     - uses: actions/checkout@v2
