@@ -21,7 +21,7 @@ jobs:
     - name: Install nightly rust
       uses: actions-rs/toolchain@v1
       with:
-        toolchain: nightly-1.63.0
+        toolchain: 1.6.4-i686
         override: true
     
     - name: Install i386 deps
@@ -52,7 +52,7 @@ jobs:
     - name: Install nightly rust
       uses: actions-rs/toolchain@v1
       with:
-        toolchain: nightly-1.63.0
+        toolchain: 1.6.4-i686
         override: true
 
     - uses: actions/checkout@v2
@@ -83,7 +83,7 @@ jobs:
     - name: Install nightly rust
       uses: actions-rs/toolchain@v1
       with:
-        toolchain: nightly-1.63.0
+        toolchain: 1.6.4-i686
         override: true
 
     - uses: actions/checkout@v2
@@ -140,7 +140,7 @@ jobs:
     - name: Install nightly rust
       uses: actions-rs/toolchain@v1
       with:
-        toolchain: nightly-1.63.0
+        toolchain: 1.6.4-i686
         override: true
 
     - uses: actions/checkout@v2
